@@ -2,7 +2,6 @@ use crate::blockchain::{
     get_citrea_balance, get_erc20_balance, get_sepolia_eth_balance, get_testnet_btc_balance,
 };
 use actix_web::{web, HttpResponse, Responder};
-use dotenv::dotenv;
 use serde::{Deserialize, Serialize};
 
 #[derive(Debug, Serialize, Deserialize)]

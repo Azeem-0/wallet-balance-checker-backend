@@ -1,3 +1,4 @@
+use actix_cors::Cors;
 use actix_web::middleware::Logger;
 use actix_web::{web, App, HttpServer};
 use handlers::{
@@ -22,6 +23,13 @@ async fn main() -> std::io::Result<()> {
             .route(
                 "/check-testnet-btc",
                 web::post().to(check_testnet_btc_balance),
+            )
+            .wrap(
+                Cors::default()
+                    .allow_any_origin()
+                    .allow_any_method()
+                    .allow_any_header()
+                    .supports_credentials(),
             )
     })
     .bind("127.0.0.1:8080")?
