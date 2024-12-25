@@ -1,0 +1,35 @@
+[[asset]]
+name = "wbtc"
+chain = "Sepolia"
+contract_address = "0x4D68da063577F98C55166c7AF6955cF58a97b20A"
+rpc_url = "https://1rpc.io/sepolia"
+
+[[asset]]
+name = "solvbtc"
+chain = "Sepolia"
+contract_address = "0xE33109766662932a26d978123383ff9E7bdeF346"
+rpc_url = "https://1rpc.io/sepolia"
+
+[[asset]]
+name = "solvbtc"
+chain = "Avalanche Fuji Testnet"
+contract_address = "0x1cF0e51005971c5B78b4A8feE419832CFCCD8cf9"
+rpc_url = "https://rpc.ankr.com/avalanche_fuji"
+
+[[asset]]
+name = "solvbtc"
+chain = "BSC Testnet"
+contract_address = "0x1cF0e51005971c5B78b4A8feE419832CFCCD8cf9"
+rpc_url = "https://bsc-testnet-rpc.publicnode.com"
+
+[[asset]]
+name = "ibtc"
+chain = "Sepolia"
+contract_address = "0x67a4Ed5E3E80ad4f1b84646E45bcf9216059A37e"
+rpc_url = "https://1rpc.io/sepolia"
+
+[[asset]]
+name = "wcbtc"
+chain = "Citrea"
+contract_address = "0x8d0c9d1c17aE5e40ffF9bE350f57840E9E66Cd93"
+rpc_url = "https://rpc.testnet.citrea.xyz"

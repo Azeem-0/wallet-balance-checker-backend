@@ -1,0 +1,17 @@
+[package]
+name = "wallet-balance-checker-backend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-rt = "2.10.0"
+actix-web = "4.9.0"
+bitcoin = "0.30.0"
+dotenv = "0.15.0"
+ethers = { version = "2.0.14", features = ["abigen","ws"] }
+futures = "0.3.31"
+mongodb = "3.1.1"
+reqwest = { version = "0.12.9", features = ["json"] }
+serde = "1.0.216"
+serde_json = "1.0.134"
+toml = "0.8.19"
